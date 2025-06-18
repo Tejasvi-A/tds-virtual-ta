@@ -41,7 +41,9 @@ PySocks==1.7.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
 pytz==2025.2
-pywin32==310
+colorama
+pyreadline
+win32-setctime
 regex==2024.11.6
 requests==2.32.3
 selenium==4.33.0
