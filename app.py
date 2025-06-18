@@ -89,4 +89,11 @@ Answer:"""
 
 @app.get("/")
 def root():
-    return {"status": "Virtual TA API is running"}
+    return {
+        "message": "This is TDS Virtual TA API",
+        "usage": {
+            "/ask?q=Your+question+here": "Returns top 5 relevant content chunks from course materials.",
+            "/answer?q=Your+question+here": "Returns a GPT-generated answer using context from course content."
+        }
+    }
+
