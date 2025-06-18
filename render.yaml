@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: tds-virtual-ta
+    runtime: python
+    buildCommand: ""
+    startCommand: bash start.sh
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
